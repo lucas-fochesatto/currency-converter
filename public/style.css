@@ -1,0 +1,97 @@
+:root {
+    font-size: 70%;
+    width: 100%;
+    height: 100%;
+}
+
+#page-exchange-app #container .page-header {
+    width: 100%;
+    height: 38px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#page-exchange-app #container .page-header strong {
+    font-size: 3rem;
+    color: black;
+}
+
+#page-exchange-app #container .page-header p{
+    margin-top: 0;
+    font-size: 2rem;
+    color: #B795C2;
+}
+
+#page-exchange-app #container .page-header p a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#page-exchange-app #container .converter-container {
+    margin-top: 20rem;
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    grid-template-rows: 15rem 10rem 10rem;
+    grid-template-areas: 
+        "current image"
+        "input input"
+        "select none";
+    column-gap: 10rem;
+    row-gap: 2rem;
+}
+
+#page-exchange-app #container .converter-container .current-coin {
+    width: 35rem;
+    height: 15rem;
+    grid-area: current;
+}
+
+#page-exchange-app #container .converter-container .current-coin .current-coin-name{
+    font: 400 2rem Oxygen;
+    margin-bottom: 0;
+}
+
+#page-exchange-app #container .converter-container .current-coin .current-coin-price{
+    font: bold 4.5rem Oxygen;
+}
+
+#page-exchange-app #container .converter-container img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    grid-area: image;
+    align-self: center;
+    margin-left: 5rem;
+}
+
+#page-exchange-app #container .converter-container .input-block label {
+    grid-area: input;
+    font: 400 2rem Oxygen;
+}
+
+
+#page-exchange-app #container .converter-container .input-block input {
+    text-align: right;
+    width: 23rem;
+    height: 3rem;
+    font: 400 2rem Oxygen;
+    background-color: #C4C4C4;
+    color: #2E1D44;
+    margin-bottom: 6rem;
+    outline: 0;
+    border: 1px solid #A4A4A4;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+#page-exchange-app #container .converter-container select {
+    background-color: #C4C4C4;
+    display: block;
+    width: 25rem;
+    height: 3rem;
+    font: 400 2rem Oxygen;
+    color: #2E1D44;
+    grid-area: select;
+}

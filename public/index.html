@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange App</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+<body id="page-exchange-app">
+    <div id="container">
+        <header class="page-header">
+            <strong>Conversor de Moedas Online</strong>
+            <p>API fornecida por: Awesome API (<a href="https://docs.awesomeapi.com.br/">https://docs.awesomeapi.com.br/</a>)</p>
+        </header>
+
+        <div class="converter-container">
+            <div class="current-coin">
+                <p class="current-coin-name">1 Dólar Americano igual a</p>
+                <strong class="current-coin-price">5,44 Real Brasileiro</strong>
+            </div>
+
+            <img src="" alt="Dólar" class="current-coin-image">
+            
+
+            <div class="input-block">
+                <label for="real">R$</label>
+                <input type="number" name="real" id="real" onchange="setTwoNumberDecimal()" step="0.25">
+            </div>
+            
+            <div class="input-block">
+                <label for="selected-coin" class="current-coin-code">USD</label>
+                <input type="number" name="selected-coin" id="selected-coin" step="0.25">
+            </div>
+
+            <select name="coin" id="coin">
+                <option value="0">Dólar Comercial</option>
+                <option value="1">Dólar Turismo</option>
+                <option value="2">Dólar Canadense</option>
+                <option value="3">Euro</option>
+                <option value="4">Libra Esterlina</option>
+                <option value="5">Peso Argentino</option>
+                <option value="6">Bitcoin</option>
+                <option value="7">Litecoin</option>
+                <option value="8">Iene Japonês</option>
+                <option value="9">Franco Suíço</option>
+                <option value="10">Dólar Australiano</option>
+                <option value="11">Yuan Chinês</option>
+                <option value="12">Novo Shekel Israelense</option>
+                <option value="13">Ethereum</option>
+                <option value="14">Ripple</option>
+            </select>
+        </div>
+    </div>
+    
+</body>
+</html>
