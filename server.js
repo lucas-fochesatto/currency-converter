@@ -6,4 +6,4 @@ server
 .get("/", (req, res) => {
     res.render("index.html")
 })
-.listen(55767) //Start the server on http://localhost:3000/
+.listen(55767) //Start the server on http://localhost:55767/

@@ -6,9 +6,9 @@ On the main folder, run:
 $ node server.js
 ```
 
-This will open a port (by default: 3000) - You can change to any port at listen function (server.js)
+This will open a port (by default: 55767) - You can change to any port at listen function (server.js)
 
-After opening the port, you can access by typing [localhost:3000](http://localhost:3000/) as a url
+After opening the port, you can access by typing [localhost:55767](http://localhost:55767/) as a url
 
 If you want to change anything and improve my application, please let me know so we can work togethher :smiley:
 
